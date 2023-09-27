@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HCI ASSIGNMENT-02</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container" style="
+    background-image: url('./background.jpg');
+    height: 100vh;
+    width: 100vw;
+  ">
+  <h1 class="text-center">Edgaras Masilionis lab2</h1>
+   <table>
+        <form>
+            <tr>
+                <td>
+                    <label for="name">
+                        Name
+                    </label>
+                </td>
+                <td><input type="text" id="name" />
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">
+                        Email
+                    </label>
+                </td>
+                <td><input type="email" id="email" />
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phone">
+                        Tel No.
+                    </label>
+                </td>
+                <td><input type="text" id="phone" />
+                </td>
+            </tr>
+            
+             <tr>
+                <td><label for="birthday">
+                       Birthday
+                    </label>
+                </td>
+                <td><input type="date" id="birthday" />
+                </td>
+            </tr>
+             <tr>
+                <td>
+                  <fieldset>
+  <legend>Im a swiftie:</legend>
+
+  <div>
+    <input type="checkbox" id="ofCourse" value="ofCourse" checked />
+    <label for="ofCourse">Of course</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="no"  value="no" />
+    <label for="no">No I'm not</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="lying" value="lying" />
+    <label for="lying">I'm lying</label>
+  </div>
+</fieldset>
+                </td>
+
+            </tr>
+                   <tr>
+                <td><fieldset>
+  <legend>My gender:</legend>
+
+  <div>
+    <input type="radio" id="male" name="gender" value="male" checked />
+    <label for="male">Male</label>
+  </div>
+
+  <div>
+    <input type="radio" id="female" name="gender" value="female" />
+    <label for="female">Female</label>
+  </div>
+</fieldset>
+                </td>
+               
+            </tr>
+            <tr>
+                <td colspan="2"><label for="something">
+                       colspan example
+                    </label>
+                </td>
+                <td><input type="text" id="something" />
+                </td>
+            </tr>
+
+            <tr>
+    <th>Support name</th>
+    <td>Bob</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Support Phones</th>
+    <td>555-12345</td>
+  </tr>
+  <tr>
+    <td>555-87456</td>
+  </tr>
+        </form>
+    </table>
+</div>
+
+</body>
+</html>
